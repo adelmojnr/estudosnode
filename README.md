@@ -1,7 +1,8 @@
 # Estudos nodejs
 
 Levantando um server http:
-```
+
+```javascript
 var http = require('http');
 
 var server = http.createServer(function(request, response) {
@@ -17,7 +18,8 @@ server.listen(3000, function() {
 ```
 
 Criando rotas com IF e ELSE:
-```
+
+```javascript
 var http = require('http');
 
 var server = http.createServer(function(request, response){
