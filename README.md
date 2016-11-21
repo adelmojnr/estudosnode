@@ -1,6 +1,6 @@
 # Estudos nodejs
 
-levantando um server http:
+Levantando um server http:
 ```
 var http = require('http');
 
@@ -14,11 +14,9 @@ server.listen(3000, function() {
   console.log("Servidor funcionando");
 });
 
-
 ```
 
 Criando rotas com IF e ELSE:
-
 ```
 var http = require('http');
 
@@ -38,4 +36,4 @@ server.listen(3000, function(){
   console.log("Servidor funcionando");
 });
 
-``` 
+```
