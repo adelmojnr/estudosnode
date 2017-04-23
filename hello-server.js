@@ -1,6 +1,6 @@
-var http = require('http');
+import http from 'http';
 
-var server = http.createServer(function(request, response){
+const server = http.createServer((request, response) => {
   response.writeHead(200, {"Content-Type" : "text/html"});
   response.write("<h1>Hello world</h1>");
   if (request.url == "/"){
@@ -12,6 +12,6 @@ var server = http.createServer(function(request, response){
   }
   response.end();
 });
-server.listen(3000, function(){
+server.listen(3000, () => {
   console.log("Servidor funcionando");
 });
