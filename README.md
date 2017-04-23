@@ -1,6 +1,6 @@
 # Estudos Node.JS
 
-Subindo um servidor `http`:
+## Subindo um servidor `http`:
 ```javascript
 import http from 'http';
 
@@ -16,7 +16,7 @@ server.listen(3000, () => {
 
 ```
 
-Criando rotas com `if` e `else`:
+## Criando rotas com `if` e `else`:
 ```javascript
 import http from 'http';
 
@@ -38,7 +38,7 @@ server.listen(3000, () => {
 
 ```
 
-Capturando valor de um `query string`:
+## Capturando valor de um `query string`:
 ```javascript
 import http from 'http';
 import url from 'url';
